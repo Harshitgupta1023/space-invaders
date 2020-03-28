@@ -21,7 +21,7 @@ screen = pygame.display.set_mode((800,600))
 
 #title and icon
 pygame.display.set_caption("SPACE INVADER")
-icon = pygame.image.load("flower.jpg")
+icon = pygame.image.load("flower.jfif")
 pygame.display.set_icon(icon)
 
 #background
