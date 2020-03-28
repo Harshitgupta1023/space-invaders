@@ -43,10 +43,13 @@ alienx_change = []
 alieny_change = [] 
 number = 10 
 for i in range(number):
-alienimg.append(pygame.image.load("alien.png"))
-alienx.append(random.randint(0,600)) alieny.append(random.randint(50,150))
-alienx_change.append(1) alieny_change.append(40) def alien(i,x,y):
-screen.blit(alienimg[i],(x,y))
+	alienimg.append(pygame.image.load("alien.png"))
+	alienx.append(random.randint(0,600)) 
+	alieny.append(random.randint(50,150))
+	alienx_change.append(1) 
+	alieny_change.append(40) 
+	def alien(i,x,y):
+		screen.blit(alienimg[i],(x,y))
 
 #BULLET
 bulletimg = pygame.image.load("bullet.png")
