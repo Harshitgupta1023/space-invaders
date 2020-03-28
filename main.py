@@ -35,8 +35,14 @@ playery_change=0
 def player(x,y):
 	screen.blit(playerimg,(x,y)) 
 
-#alien alienimg = [] alienx = [] alieny = [] alienx_change = [] alieny_change
-= [] number = 10 for i in range(number):
+#alien 
+alienimg = [] 
+alienx = [] 
+alieny = [] 
+alienx_change = [] 
+alieny_change = [] 
+number = 10 
+for i in range(number):
 alienimg.append(pygame.image.load("alien.png"))
 alienx.append(random.randint(0,600)) alieny.append(random.randint(50,150))
 alienx_change.append(1) alieny_change.append(40) def alien(i,x,y):
